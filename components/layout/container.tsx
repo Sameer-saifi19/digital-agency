@@ -6,7 +6,7 @@ function Container({ children, className, ...props }: Props) {
   return (
     <div
       className={cn(
-        "w-full mx-auto max-w-6xl px-4 lg:px-0",
+        "w-full mx-auto max-w-6xl px-6 lg:px-0",
         className
       )}
       {...props}

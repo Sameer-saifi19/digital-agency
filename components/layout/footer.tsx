@@ -14,21 +14,21 @@ export default function Footer() {
   return (
     <>
       <footer>
-        <div className="lg:max-w-7xl lg:mx-auto lg:px-16">
-          <div className="grid grid-cols-2 py-16 lg:grid-cols-4">
-            <div>
-              <h2 className="text-[32px] text-foreground">DIGITAL</h2>
+        <div className="lg:max-w-7xl lg:mx-auto lg:px-16 px-6">
+          <div className="grid grid-cols-2 py-16 lg:grid-cols-4 justify-items-start gap-y-12 ">
+            <div className="col-span-2">
+              <h2 className="text-[32px] text-foreground ">DIGITAL</h2>
               <Typography variant={"bodySmall"}>
                 Smarter digital marketing. Better results. An Indian based
                 digital agency building websites and growth systems for
                 businesses.
               </Typography>
             </div>
-            <div className="flex items-center flex-col gap-4">
+            <div className="flex lg:items-center flex-col gap-4 col-span-2">
               <p className="text-md text-muted-foreground font-mono uppercase">
                 Pages
               </p>
-              <nav className="flex flex-col items-center gap-2 text-base font-normal text-foreground">
+              <nav className="flex flex-col lg:items-center gap-2 text-base font-normal text-foreground">
                 {navItems.map((item) => (
                   <Link
                     key={item.label}
@@ -40,11 +40,11 @@ export default function Footer() {
                 ))}
               </nav>
             </div>
-            <div className="flex items-center flex-col gap-4">
+            <div className="flex lg:items-center flex-col gap-4 col-span-2">
               <p className="text-md text-muted-foreground font-mono uppercase">
                 Services
               </p>
-              <nav className="flex flex-col items-center gap-2 text-base font-normal text-foreground">
+              <nav className="flex flex-col lg:items-center gap-2 text-base font-normal text-foreground">
                 {footerServices.map((item) => (
                   <Link
                     key={item.label}
@@ -56,7 +56,7 @@ export default function Footer() {
                 ))}
               </nav>
             </div>
-            <div className="flex flex-col gap-4 items-center">
+            <div className="flex flex-col gap-4 lg:items-center col-span-2">
               <p className="text-md text-muted-foreground font-mono uppercase">
                 Get in touch
               </p>
@@ -87,7 +87,7 @@ export default function Footer() {
               </ul>
             </div>
           </div>
-          <div className="border-t border-border flex justify-between pt-6">
+          <div className="border-t border-border flex flex-wrap items-center justify-center gap-2 py-6 lg:justify-between">
             <p className="text-muted-foreground text-sm font-normal">
               © {new Date().getFullYear()} Digital. All rights reserved.
             </p>

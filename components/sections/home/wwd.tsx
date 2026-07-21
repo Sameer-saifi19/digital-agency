@@ -13,7 +13,7 @@ export default function WhatWeDo() {
               <SectionBadge>
                 What we do
               </SectionBadge>
-              <Typography variant="heading">
+              <Typography variant="heading" className="text-4xl">
                 We build high-performing websites and growth systems that help
                 ambitious businesses scale.
               </Typography>

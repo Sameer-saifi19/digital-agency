@@ -10,7 +10,7 @@ import { ArrowUpRightIcon } from "@phosphor-icons/react";
 export default function ApproachSection() {
   return (
     <>
-      <div className="py-30">
+      <div className="lg:py-30 py-16">
         <Container>
           <div className="flex justify-between items-end flex-wrap gap-16">
             <div className="max-w-md">
