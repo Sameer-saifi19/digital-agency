@@ -21,7 +21,11 @@ export default function HomeHero() {
           </Typography>
           <div className="pt-6 lg:pt-8 flex gap-2 lg:flex">
             <Link href="/contact">
-              <Button variant="primary" size="xl" className="group w-full lg:w-auto">
+              <Button
+                variant="primary"
+                size="xl"
+                className="group w-full lg:w-auto"
+              >
                 Book Consultation
                 <ArrowUpRightIcon
                   weight="bold"
@@ -31,7 +35,11 @@ export default function HomeHero() {
             </Link>
 
             <Link href="/services">
-              <Button variant={"outline"} size={"xl"} className="w-full lg:w-auto">
+              <Button
+                variant={"outline"}
+                size={"xl"}
+                className="w-full lg:w-auto"
+              >
                 View Services
               </Button>
             </Link>

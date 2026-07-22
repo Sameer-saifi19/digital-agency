@@ -23,7 +23,7 @@ export default function Header() {
   }, []);
 
   return (
-    <header className="hidden fixed top-4 left-0 z-50 w-full">
+    <header className="hidden lg:block fixed top-4 left-0 z-50 w-full">
       <div className="lg:mx-auto lg:max-w-7xl lg:px-10">
         <div
           className={`

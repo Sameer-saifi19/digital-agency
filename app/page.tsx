@@ -10,15 +10,15 @@ import WhatWeDo from "@/components/sections/home/wwd";
 export default function page() {
   return (
     <>
-        <HomeHero />
-        <MarqueeSection />
-        <WhatWeDo />
-        <ServiceSection />
-        <ServiceBars />
-        <ApproachSection />
-        <OurWorkSection />
-        <CTASection />
-        <MarqueeSection />
+      <HomeHero />
+      <MarqueeSection />
+      <WhatWeDo />
+      <ServiceSection />
+      <ServiceBars />
+      <ApproachSection />
+      <OurWorkSection />
+      <CTASection />
+      <MarqueeSection />
     </>
   );
 }

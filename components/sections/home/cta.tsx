@@ -12,9 +12,11 @@ export default function CTASection() {
       <div className="bg-primary lg:py-32 py-16">
         <Container>
           <div className="max-w-3xl">
-            <SectionBadge className="text-foreground">start the conversation</SectionBadge>
+            <SectionBadge className="text-foreground">
+              start the conversation
+            </SectionBadge>
             <Typography variant="heading" className="text-primary-foreground">
-                Let's build your digital future
+              Let's build your digital future
             </Typography>
           </div>
           <div className="flex flex-wrap items-center justify-between gap-6 pt-4">

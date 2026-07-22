@@ -12,12 +12,10 @@ export default function ApproachSection() {
     <>
       <div className="lg:py-30 py-16">
         <Container>
-          <div className="flex justify-between items-end flex-wrap gap-16">
+          <div className="flex justify-between items-end lg:items-center flex-wrap gap-16">
             <div className="max-w-md">
               <SectionBadge>The Approach</SectionBadge>
-              <Typography variant="heading" >
-                How we drive growth
-              </Typography>
+              <Typography variant="heading">How we drive growth</Typography>
               <p className="text-muted-foreground text-lg leading-relaxed pt-4 lg:pt-10">
                 A proven process that turns marketing from a cost centre into
                 your most reliable growth engine.

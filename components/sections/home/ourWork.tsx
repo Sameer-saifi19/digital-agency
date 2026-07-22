@@ -13,7 +13,9 @@ export default function OurWorkSection() {
           <div className="flex flex-wrap gap-4 items-end justify-between">
             <div className="max-w-lg">
               <SectionBadge>Selected Work</SectionBadge>
-              <Typography variant="heading" className="text-primary-foreground">Proof, not promises</Typography>
+              <Typography variant="heading" className="text-primary-foreground">
+                Proof, not promises
+              </Typography>
             </div>
             <Button variant="darkOutline" className="mb-2">
               View all work

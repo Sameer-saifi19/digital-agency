@@ -15,8 +15,8 @@ export default function Footer() {
     <>
       <footer>
         <div className="lg:max-w-7xl lg:mx-auto lg:px-16 px-6">
-          <div className="grid grid-cols-2 py-16 lg:grid-cols-4 justify-items-start gap-y-12 ">
-            <div className="col-span-2">
+          <div className="grid grid-cols-2 py-16 lg:grid-cols-4 justify-items-start lg:justify-items-center gap-y-12 lg:gap-y-0 ">
+            <div className="col-span-2 lg:col-span-1">
               <h2 className="text-[32px] text-foreground ">DIGITAL</h2>
               <Typography variant={"bodySmall"}>
                 Smarter digital marketing. Better results. An Indian based
@@ -24,7 +24,7 @@ export default function Footer() {
                 businesses.
               </Typography>
             </div>
-            <div className="flex lg:items-center flex-col gap-4 col-span-2">
+            <div className="flex lg:items-center flex-col gap-4 col-span-2 lg:col-span-1">
               <p className="text-md text-muted-foreground font-mono uppercase">
                 Pages
               </p>
@@ -40,7 +40,7 @@ export default function Footer() {
                 ))}
               </nav>
             </div>
-            <div className="flex lg:items-center flex-col gap-4 col-span-2">
+            <div className="flex lg:items-center flex-col gap-4 col-span-2 lg:col-span-1">
               <p className="text-md text-muted-foreground font-mono uppercase">
                 Services
               </p>
@@ -56,7 +56,7 @@ export default function Footer() {
                 ))}
               </nav>
             </div>
-            <div className="flex flex-col gap-4 lg:items-center col-span-2">
+            <div className="flex flex-col gap-4 lg:items-center col-span-2 lg:col-span-1">
               <p className="text-md text-muted-foreground font-mono uppercase">
                 Get in touch
               </p>

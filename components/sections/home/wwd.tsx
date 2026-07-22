@@ -10,9 +10,7 @@ export default function WhatWeDo() {
         <Container>
           <div>
             <div className="max-w-3xl">
-              <SectionBadge>
-                What we do
-              </SectionBadge>
+              <SectionBadge>What we do</SectionBadge>
               <Typography variant="heading" className="text-4xl">
                 We build high-performing websites and growth systems that help
                 ambitious businesses scale.

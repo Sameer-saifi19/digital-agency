@@ -1,6 +1,5 @@
 "use client";
 
-import Container from "@/components/layout/container";
 import { services } from "@/data/services";
 import { ArrowUpRightIcon } from "@phosphor-icons/react";
 import Link from "next/link";
