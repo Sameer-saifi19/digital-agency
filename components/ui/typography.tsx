@@ -6,7 +6,7 @@ const typographyVariants = cva("", {
   variants: {
     variant: {
       display:
-        "text-8xl text-foreground font-bold font-bricolage leading-tighter",
+        "text-5xl lg:text-8xl text-foreground font-bold font-bricolage leading-tighter",
       heading:
         "text-5xl lg:text-6xl text-foreground font-bold font-bricolage leading-tight",
       subheading: "text-primary uppercase font-mono font-medium tracking-wider",

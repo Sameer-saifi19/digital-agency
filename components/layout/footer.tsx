@@ -13,7 +13,7 @@ import {
 export default function Footer() {
   return (
     <>
-      <footer>
+      <footer className="bg-background/80">
         <div className="lg:max-w-7xl lg:mx-auto lg:px-16 px-6">
           <div className="grid grid-cols-2 py-16 lg:grid-cols-4 justify-items-start lg:justify-items-center gap-y-12 lg:gap-y-0 ">
             <div className="col-span-2 lg:col-span-1">

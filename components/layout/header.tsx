@@ -23,22 +23,22 @@ export default function Header() {
   }, []);
 
   return (
-    <header className="hidden lg:block fixed top-4 left-0 z-50 w-full">
-      <div className="lg:mx-auto lg:max-w-7xl lg:px-10">
+    <header className="lg:block fixed top-4 left-0 z-50 w-full">
+      <div className="lg:mx-auto lg:max-w-7xl lg:px-10 px-4">
         <div
           className={`
-            flex h-16  items-center justify-between rounded-[36px] px-6
+            flex h-16  items-center justify-between rounded-[36px] px-4 lg:px-6
             transition-all duration-300
             ${
               scrolled
-                ? "border-foreground border bg-background/80 shadow-lg backdrop-blur-xl"
+                ? "border-2 bg-background/80 shadow-lg backdrop-blur-xl"
                 : "bg-transparent"
             }
           `}
         >
           <h2 className="text-[32px] text-foreground">DIGITAL</h2>
 
-          <nav className="flex items-center gap-8 text-base font-normal text-foreground">
+          <nav className="lg:flex hidden items-center gap-8 text-base font-normal text-foreground">
             {navItems.map((item) => (
               <Link
                 key={item.label}
