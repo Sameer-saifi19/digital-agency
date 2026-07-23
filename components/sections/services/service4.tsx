@@ -29,7 +29,8 @@ export const process = [
   {
     number: "03",
     title: "Develop",
-    description: "Build a fast, secure WordPress website with custom functionality.",
+    description:
+      "Build a fast, secure WordPress website with custom functionality.",
   },
   {
     number: "04",
@@ -48,18 +49,22 @@ export const deliverables = [
 export default function Wordpress() {
   return (
     <>
-      <div className="lg:py-24 border-b">
+      <div className="lg:py-24 border-b pt-12">
         <Container>
           <div className="grid lg:grid-cols-2 lg:gap-16">
-            <div>
-              <Typography variant={"heading"} className="leading-14 lg:mb-4">
+            <div className="order-2">
+              <Typography variant={"heading"} className="leading-14 lg:mb-4 mt-4 mb-2">
                 Wordpress Development
               </Typography>
               <Typography variant={"body"}>
-                We keep your website secure, fast, and running flawlessly long after launch. Every maintenance plan is tailored to your business, covering updates, monitoring, backups, performance optimization, and ongoing technical support—so your website remains reliable while you focus on growth.
+                We keep your website secure, fast, and running flawlessly long
+                after launch. Every maintenance plan is tailored to your
+                business, covering updates, monitoring, backups, performance
+                optimization, and ongoing technical support—so your website
+                remains reliable while you focus on growth.
               </Typography>
 
-              <SectionBadge className="lg:text-md lg:mt-10">
+              <SectionBadge className="lg:text-md lg:mt-10 mt-8 mb-6">
                 Key benefits
               </SectionBadge>
               <div className="grid gap-5 sm:grid-cols-2">
@@ -77,7 +82,7 @@ export default function Wordpress() {
                   </div>
                 ))}
               </div>
-              <SectionBadge className="lg:text-md lg:mt-10">
+              <SectionBadge className="lg:text-md lg:mt-10 mt-8 mb-6">
                 Process
               </SectionBadge>
               <div className="grid overflow-hidden bg-primary-foreground/80 rounded-xl border sm:grid-cols-2">
@@ -97,10 +102,10 @@ export default function Wordpress() {
                   </div>
                 ))}
               </div>
-              <SectionBadge className="lg:text-md lg:mt-10">
+              <SectionBadge className="lg:text-md lg:mt-10 mt-8 mb-6">
                 Deliverables
               </SectionBadge>
-              <div className="flex flex-wrap gap-3 lg:mb-8">
+              <div className="flex flex-wrap gap-3 lg:mb-8 mb-10">
                 {deliverables.map((item) => (
                   <span
                     key={item}
@@ -111,7 +116,7 @@ export default function Wordpress() {
                 ))}
               </div>
               <Link href="/contact">
-                <Button variant="primary" size="large" className="group">
+                <Button variant="primary" size="large" className="group mb-10">
                   Start this project
                   <ArrowUpRightIcon
                     weight="bold"
@@ -120,13 +125,14 @@ export default function Wordpress() {
                 </Button>
               </Link>
             </div>
-            <div className="justify-items-end">
+            <div className="lg:justify-items-end lg:order-2 order-1">
               <Image
-                src={"/services/website-development.jpg"}
+                loading="eager"
+                src={"/services/Wordpress-service.webp"}
                 className="aspect-square object-cover lg:w-120 h-auto rounded-2xl overflow-hidden"
                 width={1000}
                 height={1000}
-                alt="website-development-service"
+                alt="wordpress-development-service"
               />
             </div>
           </div>

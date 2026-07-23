@@ -5,7 +5,7 @@ import { Typography } from "@/components/ui/typography";
 export default function ServiceHero() {
   return (
     <>
-      <div className="lg:pt-40">
+      <div className="lg:pt-40 pt-40 pb-12">
         <Container>
           <div className="max-w-3xl">
             <SectionBadge>Services</SectionBadge>

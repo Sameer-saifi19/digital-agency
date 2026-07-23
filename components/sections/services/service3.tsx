@@ -48,20 +48,21 @@ export const deliverables = [
 export default function SEO() {
   return (
     <>
-      <div className="lg:py-24 border-b">
+      <div className="lg:py-24 border-b pt-12">
         <Container>
           <div className="grid lg:grid-cols-2 lg:gap-x-4">
             <div>
               <Image
-                src={"/services/SEO.jpg"}
+                src={"/services/seo-service.jpg"}
                 className="aspect-square object-cover lg:w-120 h-auto rounded-2xl overflow-hidden"
+                loading="eager"
                 width={1000}
                 height={1000}
                 alt="website-development-service"
               />
             </div>
             <div>
-              <Typography variant={"heading"} className="leading-14 lg:mb-4">
+              <Typography variant={"heading"} className="text-3xl lg:mb-4 mt-4 mb-2">
                 SEO Services
               </Typography>
               <Typography variant={"body"}>
@@ -70,7 +71,7 @@ export default function SEO() {
                 and build authority that keeps paying off month after month.
               </Typography>
 
-              <SectionBadge className="lg:text-md lg:mt-10">
+              <SectionBadge className="lg:text-md lg:mt-10 mt-8 mb-6">
                 Key benefits
               </SectionBadge>
               <div className="grid gap-5 sm:grid-cols-2">
@@ -88,7 +89,7 @@ export default function SEO() {
                   </div>
                 ))}
               </div>
-              <SectionBadge className="lg:text-md lg:mt-10">
+              <SectionBadge className="lg:text-md lg:mt-10 mt-8 mb-6">
                 Process
               </SectionBadge>
               <div className="grid overflow-hidden bg-primary-foreground/80 rounded-xl border sm:grid-cols-2">
@@ -108,10 +109,10 @@ export default function SEO() {
                   </div>
                 ))}
               </div>
-              <SectionBadge className="lg:text-md lg:mt-10">
+              <SectionBadge className="lg:text-md lg:mt-10 mt-8 mb-6">
                 Deliverables
               </SectionBadge>
-              <div className="flex flex-wrap gap-3 lg:mb-8">
+              <div className="flex flex-wrap gap-3 lg:mb-8 mb-8">
                 {deliverables.map((item) => (
                   <span
                     key={item}
@@ -122,7 +123,7 @@ export default function SEO() {
                 ))}
               </div>
               <Link href="/contact">
-                <Button variant="primary" size="large" className="group">
+                <Button variant="primary" size="large" className="group mb-8">
                   Start this project
                   <ArrowUpRightIcon
                     weight="bold"

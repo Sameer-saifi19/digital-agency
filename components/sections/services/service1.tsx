@@ -53,15 +53,16 @@ export default function WebDevelopment() {
           <div className="grid lg:grid-cols-2 lg:gap-x-4">
             <div>
               <Image
-                src={"/services/website-development.jpg"}
+                src={"/services/website-development-service.jpg"}
                 className="aspect-square object-cover lg:w-120 h-auto rounded-2xl overflow-hidden"
                 width={1000}
+                loading="eager"
                 height={1000}
                 alt="website-development-service"
               />
             </div>
             <div>
-              <Typography variant={"heading"} className="leading-14 lg:mb-4">
+              <Typography variant={"heading"} className="text-3xl mt-4 mb-2 lg:mb-4">
                 Website Development
               </Typography>
               <Typography variant={"body"}>
@@ -71,7 +72,7 @@ export default function WebDevelopment() {
                 CMS your team can actually use.
               </Typography>
 
-              <SectionBadge className="lg:text-md lg:mt-10">
+              <SectionBadge className="lg:text-md mt-6 mb-4 lg:mt-10">
                 Key benefits
               </SectionBadge>
               <div className="grid gap-5 sm:grid-cols-2">
@@ -89,7 +90,7 @@ export default function WebDevelopment() {
                   </div>
                 ))}
               </div>
-              <SectionBadge className="lg:text-md lg:mt-10">
+              <SectionBadge className="lg:text-md mt-8 mb-6 lg:mt-10">
                 Process
               </SectionBadge>
               <div className="grid overflow-hidden bg-primary-foreground/80 rounded-xl border sm:grid-cols-2">
@@ -109,10 +110,10 @@ export default function WebDevelopment() {
                   </div>
                 ))}
               </div>
-              <SectionBadge className="lg:text-md lg:mt-10">
+              <SectionBadge className="lg:text-md mt-8 mb-6 lg:mt-10">
                 Deliverables
               </SectionBadge>
-              <div className="flex flex-wrap gap-3 lg:mb-8">
+              <div className="flex flex-wrap gap-4 lg:mb-8 mb-6">
                 {deliverables.map((item) => (
                   <span
                     key={item}
@@ -123,7 +124,7 @@ export default function WebDevelopment() {
                 ))}
               </div>
               <Link href="/contact">
-                <Button variant="primary" size="large" className="group">
+                <Button variant="primary" size="large" className="group mb-8">
                   Start this project
                   <ArrowUpRightIcon
                     weight="bold"

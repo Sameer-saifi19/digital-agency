@@ -54,16 +54,16 @@ export default function Websupport() {
     <>
       <div className="lg:py-24 border-b">
         <Container>
-          <div className="grid lg:grid-cols-2 lg:gap-16">
-            <div>
-              <Typography variant={"heading"} className="leading-14 lg:mb-4">
+          <div className="grid lg:grid-cols-2 lg:gap-16 ">
+            <div className="order-2">
+              <Typography variant={"heading"} className="text-3xl lg:mb-4 mb-2">
                 Website Support & Maintainance
               </Typography>
               <Typography variant={"body"}>
                 We keep your website secure, fast, and running flawlessly long after launch. Every maintenance plan is tailored to your business, covering updates, monitoring, backups, performance optimization, and ongoing technical support—so your website remains reliable while you focus on growth.
               </Typography>
 
-              <SectionBadge className="lg:text-md lg:mt-10">
+              <SectionBadge className="lg:text-md lg:mt-10 mt-6 mb-4">
                 Key benefits
               </SectionBadge>
               <div className="grid gap-5 sm:grid-cols-2">
@@ -81,7 +81,7 @@ export default function Websupport() {
                   </div>
                 ))}
               </div>
-              <SectionBadge className="lg:text-md lg:mt-10">
+              <SectionBadge className="lg:text-md lg:mt-10 mt-8 mb-6">
                 Process
               </SectionBadge>
               <div className="grid overflow-hidden bg-primary-foreground/80 rounded-xl border sm:grid-cols-2">
@@ -101,7 +101,7 @@ export default function Websupport() {
                   </div>
                 ))}
               </div>
-              <SectionBadge className="lg:text-md lg:mt-10">
+              <SectionBadge className="lg:text-md lg:mt-10 mt-8 mb-6">
                 Deliverables
               </SectionBadge>
               <div className="flex flex-wrap gap-3 mb-8">
@@ -115,7 +115,7 @@ export default function Websupport() {
                 ))}
               </div>
                <Link href="/contact">
-                <Button variant="primary" size="large" className="group">
+                <Button variant="primary" size="large" className="group mb-10">
                   Start this project
                   <ArrowUpRightIcon
                     weight="bold"
@@ -124,12 +124,13 @@ export default function Websupport() {
                 </Button>
               </Link>
             </div>
-            <div className="justify-items-end">
+            <div className="order-1 lg:order-2 lg:justify-items-end lg:pt-0 pt-12 pb-6">
               <Image
-                src={"/services/website-development.jpg"}
+                src={"/services/support-and-maintainance-service.webp"}
                 className="aspect-square object-cover lg:w-120 h-auto rounded-2xl overflow-hidden"
                 width={1000}
                 height={1000}
+                loading="eager"
                 alt="website-development-service"
               />
             </div>
