@@ -12,7 +12,7 @@ const typographyVariants = cva("", {
       subheading: "text-primary uppercase font-mono font-medium tracking-wider",
       body: "text-muted-foreground text-lg leading-relaxed",
       bodySmall: "text-sm text-muted-foreground leading-relaxed",
-      label: "text-sm font-medium",
+      label: "text-sm font-mono font-medium",
       caption: "text-xs text-muted-foreground",
       medium: "text-3xl font-bricolage font-bold text-foreground",
     },

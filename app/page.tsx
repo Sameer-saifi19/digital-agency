@@ -17,7 +17,12 @@ export default function page() {
       <ServiceBars />
       <ApproachSection />
       <OurWorkSection />
-      <CTASection />
+      <CTASection
+        badge="start the conversation"
+        title="Let's build your digital future"
+        desc="Book a free, no-pressure consultation. We'll show you exactly
+              where the biggest growth opportunities are."
+      />
       <MarqueeSection />
     </>
   );
